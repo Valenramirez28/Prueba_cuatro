@@ -1,0 +1,189 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    background-color: #f0f0f0;
+}
+
+.login-box {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+    width: 120%;
+    max-width: 1200px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.login-box h1 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+form {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.row {
+    margin-bottom: 15px;
+}
+
+.row-card {
+    margin-bottom: 15px;
+}
+.row-input{
+    margin-bottom: 15px;
+}
+.row-info{
+    margin-bottom: 15px;
+}
+
+.row label {
+    width: 30%;
+    text-align: right;
+    margin-right: -30px;
+    margin-left: 65px;
+    font-weight: 600;
+}
+.row-input label {
+    width: 30%;
+    text-align: right;
+    margin-right: -30px;
+    margin-left: 155px;
+    font-weight: 600;
+}
+.row-card label {
+    width: 30%;
+    text-align: right;
+    margin-right: -30px;
+    margin-left: 72px;
+    font-weight: 600;
+}
+.row-info label {
+    width: 30%;
+    text-align: right;
+    margin-right: -30px;
+    margin-left: 50px;
+    font-weight: 600;
+}
+
+.row input,
+.row select {
+    width: calc(20% - 10px);
+    padding: 8px;
+    border: 2px solid blue;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-left: 46px;
+}
+.row-card input,
+.row-card select {
+    width: calc(20% - 10px);
+    padding: 8px;
+    border: 2px solid blue;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-left: 43px;
+}
+.row-input input,
+.row-input select {
+    width: calc(20% - 10px);
+    padding: 8px;
+    border: 2px solid blue;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-left: 43px;
+}
+.row-info input,
+.row-info select {
+    width: calc(20% - 10px);
+    padding: 8px;
+    border: 2px solid blue;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-left: 67px;
+}
+
+.boton {
+    padding: 10px 20px;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-left: 44.5%;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+.boton:hover {
+    background-color: #005f77;
+}
+
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.9);/* Box-shadow en todos los lados */
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+table th {
+    background-color: blue;
+    color: white;
+}
+
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table tr:hover {
+    background-color: #f2f2f2;
+}
+td button {
+    background-color: blue;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin-left: -1px;
+}
+
+.eliminar {
+    background-color: red;
+    margin-left: -3px;
+}
+
+button:hover {
+    background-color: rgb(61, 61, 251);
+    transform: translateY(-3px);
+}
+
+.eliminar:hover {
+    background-color: rgb(246, 70, 70);
+}
+
+/* Nuevos estilos para los botones dentro de la tabla */
+.acciones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.acciones button {
+    margin: 5px;
+}
